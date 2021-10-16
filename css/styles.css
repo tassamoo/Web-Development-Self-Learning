@@ -10,6 +10,13 @@ h3{
   color:#DDDDDD;
 }
 
+p{
+  color:#DDDDDD;
+}
+
+td{
+  color: #DDDDDD;
+}
 hr {
   border-style: none;
   border-top-style: dotted;
@@ -21,4 +28,5 @@ hr {
 img {
   height: auto;
 }
+
 
