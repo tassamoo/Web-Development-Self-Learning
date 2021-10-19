@@ -2,12 +2,11 @@
 h1 {
     color: red;
     font-size: 150px;
-    position: relative;
 }
 
-/* img{
-    background-color: red;
-} */
+img:hover {
+    background-color: gold;
+}
 
 
 /* Class Selector */
@@ -20,15 +19,24 @@ h1 {
     background-color: red;
 }
 
+.circular {
+    border-radius: 100%;
+}
+
 /* Ids Selector */
 #heading{
     color: blue;
 }
 
-/* hierarchy of selectors
-ID, class, tag
+#big{
+    font-size: 1000px;
+}
 
-in ID you can use it only for one tag because it's unique*/
+/* hierarchy of selectors
+ID(#tag), class(.tag), tag
+
+in ID you can use it only for once in a html page because it's unique*/
 
 /* classes: to apply same style to group related items
 IS: to apply specific style to a single element */
+
