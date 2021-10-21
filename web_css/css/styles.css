@@ -4,10 +4,22 @@ body{
 }
 
 h1{
-    margin-top: 0;
+    margin: 0;
 }
 
-div{
-    background-color: #BBE1FA;
+
+.top-container{
+    background-color:#BBE1FA ;
 }
 
+.middle-container{
+    background-color:#3282B8 ;
+    width: 200px;
+    height: 200px;
+}
+
+.bottom-container{
+    background-color:#0F4C75 ;
+    width: 200px;
+    height: 200px;
+}
