@@ -131,3 +131,28 @@ block elements: paragraph, heading
 inline: span, img, a 
 inline-block: 
 none: 
+
+**web design**
+people judge in a matter a seconds by how it looks first
+
+
+**CSS Static and Relative Positioning**
+
+A. CSS Positioning
+Rules:
+1. Content is Everything
+2. Order Comes From Code
+3. Children Sit on Parents
+
+Position: 
+1. Static
+2. Relative
+3. Absolute
+4. Fixed
+
+Coordinates:
+1. Top
+2. Bottom
+3. Left
+4. Right
+
