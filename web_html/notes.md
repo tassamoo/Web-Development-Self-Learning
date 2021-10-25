@@ -1,4 +1,4 @@
-<!--Day 1 - 3
+**Day 1 - 3**
 
 head: holds information abut the webpage
 meta element (help browser to render the html docs),
@@ -6,9 +6,9 @@ charset = give extra metadata to html docs
 it simply encoding the html docs so the browser can decode
 it and show languages correctly
 
--->
 
-<!-- Day 4
+
+**Day 4**
 
 A. HyperText
 Hypertext is basically text documents that can be linked together.
@@ -23,9 +23,9 @@ B. The anatomy of anchor tag href to make hyperlink
 href= : HTML Attribute
 "#" : Link Destination
 >Hello : Link Text
-</a> : closing HTML element -->
+</a> : closing HTML element
 
-<!-- Day 5
+**Day 5**
 
 A. Creating Table
 in this lesson I learn to create table using table element
@@ -35,9 +35,11 @@ b. thead: act as the header of the table (First Row, usually for categorize thin
 c. tr: to make rows for another subtag
 d. tbody: to contain part of the table body (can be used further using Javascript)
 e. td: to insert the data insade the table row (tr)
-f. tfoot: to contain the table footer part -->
+f. tfoot: to contain the table footer part
 
-<!-- Day 6 - https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
+**Day 6**
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input
 
 A. HTML Form
 <form class="" action="index.html" method="post">
@@ -50,9 +52,10 @@ form: to make some data input
 label: to make some questions for data input
 input: to choose what kind of data that going to be input.
 inout range from button, checkbox, color, date, email, file, hidden, image,
-month, number, password, etc -->
+month, number, password, etc
 
-<!-- Day 7 - CSS
+**Day 7 - CSS**
+
 A. Inline css 
 is basically edit css element inside the html tags.
 
@@ -66,15 +69,17 @@ creating style.css files to make one for all changes to
 all the website pages. You just need to link the css files
 on the head tags.
 
--->
 
-<!-- Day 8 - Debugging CSS code
+
+**Day 8**
+
+Debugging CSS code
 A. the css priority
 1. inline, - the browser will render this first 
 2. internal, - this is the second
 3. external - this is last
 
-B. CSS Syntax (Grammar of CSS language)
+**B. CSS Syntax (Grammar of CSS language)**
 
 the anatomy of CSS:
 
@@ -90,7 +95,7 @@ value: How do you want it to be? red? big? small?
 while writing the css property code, make sure it's alphabetical 
 to make it easy for debugging
 
-C. Selector
+**C. Selector**
 you can use class on img tag to differentiate the attribute that you want to change
 
 hierarchy of selectors
@@ -122,7 +127,7 @@ style our website more efficiently
   https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model
 
   <img src="images/box_model.png" alt="">g
--->
+
 
 
 **CSS Display Property** 
@@ -156,3 +161,6 @@ Coordinates:
 3. Left
 4. Right
 
+**CSS Absolute Positioning**
+Relative Positioning: adding a margin relative to where the element should have been
+Absolute Postitioning: adding a margin to its parent element 
