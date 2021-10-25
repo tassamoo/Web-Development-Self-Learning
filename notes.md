@@ -161,6 +161,6 @@ Coordinates:
 3. Left
 4. Right
 
-**CSS Absolute Positioning**
+**CSS Absolute and Fixed Positioning**
 Relative Positioning: adding a margin relative to where the element should have been
 Absolute Postitioning: adding a margin to its parent element 
