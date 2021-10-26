@@ -164,3 +164,10 @@ Coordinates:
 **CSS Absolute and Fixed Positioning**
 Relative Positioning: adding a margin relative to where the element should have been
 Absolute Postitioning: adding a margin to its parent element 
+
+
+**The Dark Art of Centering Elements**
+to center the element there are some ways we can used:
+1. using text-align: center (can be used when the lement is inline)
+2. using margin by set the top and bottom zero, left and right auto
+3. using position relative and absolutes
