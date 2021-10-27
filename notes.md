@@ -171,3 +171,9 @@ to center the element there are some ways we can used:
 1. using text-align: center (can be used when the lement is inline)
 2. using margin by set the top and bottom zero, left and right auto
 3. using position relative and absolutes
+
+**Font Styling in Personal Website**
+Sans-serif: no edges
+Serif: have edges
+go to fonts.google.com to embed the font that you want to show in your website
+
