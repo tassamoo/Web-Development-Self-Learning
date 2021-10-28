@@ -177,3 +177,4 @@ Sans-serif: no edges
 Serif: have edges
 go to fonts.google.com to embed the font that you want to show in your website
 
+**Adding content to our website**
