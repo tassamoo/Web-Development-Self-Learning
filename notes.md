@@ -184,3 +184,5 @@ this is basically copy paste code from the html resource
 in order to change the font style you can use px(static) for measure but, it's recommended using (dynamic) em or %(percentage)
 1 em  == 16 px == 100%
 
+**CSS Font Property**
+there are many ways to change the font. Starting from it's style, decorations(bold, italic, underline,etc)
