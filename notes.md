@@ -186,3 +186,8 @@ in order to change the font style you can use px(static) for measure but, it's r
 
 **CSS Font Property**
 there are many ways to change the font. Starting from it's style, decorations(bold, italic, underline,etc)
+
+**CSS Layout - Float and Clear**
+The CSS float property specifies how an element should float.
+
+The CSS clear property specifies what elements can float beside the cleared element and on which side.
