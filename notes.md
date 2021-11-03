@@ -1,3 +1,5 @@
+zsh themes: fletcherm
+
 **Day 1 - 3**
 
 head: holds information abut the webpage
