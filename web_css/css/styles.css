@@ -1,15 +1,16 @@
+/* color palette: #EDEDED,#121212,#A5FFC9,#A5C9FF */
 
 body{
     font-family: "Merriweather",serif;
     font-size: 2 em;
     margin: 0;
     text-align: center;
-    background-color:#222831
+    background-color:#121212;
 
 }
 
 h1{
-    color: #DDDDDD;
+    color: #EDEDED;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     line-height: 2;
@@ -22,7 +23,7 @@ h1{
 }
 
 h2{
-    color: #DDDDDD;
+    color: #EDEDED;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: bolder;
@@ -30,13 +31,13 @@ h2{
 }
 
 h3{
-    color: #DDDDDD;
+    color: #EDEDED;
     font-family: 'Montserrat', sans-serif;
 
 }
 
 p{
-    color: #DDDDDD;
+    color: #EDEDED;
 }
 
 span{
@@ -62,13 +63,13 @@ span{
 
 .top-cloud{
     position: absolute;
-    right: 15%;
-    top: 50px;
+    right: 10%;
+    top: 10px;
 }
 
 .bottom-cloud{
     position: absolute;
-    left: 15%;
+    left: 10%;
     bottom: 300px;
 }
 
