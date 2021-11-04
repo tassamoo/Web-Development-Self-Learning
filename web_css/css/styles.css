@@ -4,6 +4,7 @@ body{
     font-size: 2 em;
     margin: 0;
     text-align: center;
+    background-color:#222831
 
 }
 
@@ -24,7 +25,7 @@ h2{
     color: #DDDDDD;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
-    font-weight: normal;
+    font-weight: bolder;
 
 }
 
@@ -47,17 +48,16 @@ span{
 }
 
 .top-container{
-    background-color:#222831 ;
     position: relative;
-    padding-top: 100px;
 }
 
 .middle-container{
-    background-color:#222831 ;
+    margin: 100px;
 }
 
 .bottom-container{
-    background-color:#222831 ;
+    position: relative;
+    padding-top: 100px;    
 }
 
 .top-cloud{
@@ -73,7 +73,33 @@ span{
 }
 
 .web-img{
+    width: 15%;
+    height: 15%;
+    filter: invert(1);
+    float: left;
+    margin-right: 70px;
+}
+
+.data-img{
     width: 20%;
     height: 20%;
-    filter: invert(1);
+    filter: brightness(0) invert(1);
+    float: right;
+    margin-right: 125px;
 }
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+
+}
+
+/* .web-skill-desc{
+    clear: right;    
+}
+
+.data-skill-desc{
+    clear: right;
+} */
