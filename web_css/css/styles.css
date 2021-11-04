@@ -1,5 +1,9 @@
 /* color palette: #EDEDED,#121212,#A5FFC9,#A5C9FF */
 
+palette{
+    color: #EDEDED,#121212,#A5FFC9,#A5C9FF;
+}
+
 body{
     font-family: "Merriweather",serif;
     font-size: 2 em;
@@ -10,7 +14,7 @@ body{
 }
 
 h1{
-    color: #EDEDED;
+    color: #A5C9FF;
     font-family: 'Sacramento', cursive;
     font-size: 5.625rem;
     line-height: 2;
@@ -23,7 +27,7 @@ h1{
 }
 
 h2{
-    color: #EDEDED;
+    color: #A5C9FF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: bolder;
@@ -31,9 +35,16 @@ h2{
 }
 
 h3{
-    color: #EDEDED;
+    color: #A5FFC9;
     font-family: 'Montserrat', sans-serif;
 
+}
+
+hr{
+    border: 1px solid #EDEDED;
+    width: 10%;
+    margin: 0 auto;
+    border-style: dashed;
 }
 
 p{
@@ -53,7 +64,7 @@ span{
 }
 
 .middle-container{
-    margin: 100px;
+    margin: 10px;
 }
 
 .bottom-container{
