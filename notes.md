@@ -195,3 +195,9 @@ The CSS float property specifies how an element should float.
 The CSS clear property specifies what elements can float beside the cleared element and on which side.
 
 **Bootstrap**
+Basically template website to make web development faster
+
+**Web Design 101**
+Wireframe: sneakpeekit(resource to create), balsamiq.cloud, figma
+Mock Ups: look other people website, search UI Patterns, create prototype 
+Mock Ups Resource: Dribble
