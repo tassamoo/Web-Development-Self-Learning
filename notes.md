@@ -212,4 +212,7 @@ Bootstrap Icons
 Oofcanvas and accordion
 
 **Colours and Typography**
+It's basically knowing how to use the colours and typography
 
+**Buttons**
+learning how to create different button types and sizes
