@@ -201,3 +201,14 @@ Basically template website to make web development faster
 Wireframe: sneakpeekit(resource to create), balsamiq.cloud, figma
 Mock Ups: look other people website, search UI Patterns, create prototype 
 Mock Ups Resource: Dribble
+
+**Bootstrap 5 New Features**
+dropped jQuery
+Forms have been revamped
+RTL support added
+New Utility classes positioning, font size, border radius etc
+Minor changes to some components & grid (Jumbotron gone)
+Bootstrap Icons
+Oofcanvas and accordion
+
+**Colours and Typography**
