@@ -216,3 +216,12 @@ It's basically knowing how to use the colours and typography
 
 **Buttons**
 learning how to create different button types and sizes
+
+**utility classes**
+margin and padding
+borders
+box shadow
+font weight
+
+**containers**
+in a nutshell you can arrang content in a "container" so you don't need to think about centering div lmao lol
