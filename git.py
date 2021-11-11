@@ -2,6 +2,6 @@
 import os
 
 os.system ("git add .")
-message = input("Message:")
+message = input("message: ")
 os.system ("git commit -m '" + message + "'")
 os.system ("git push -u https://github.com/tassamoo/web_dev")
