@@ -230,3 +230,6 @@ in a nutshell you can arrang content in a "container" so you don't need to think
 in order to use grid layout we need to understand that bootstrap using 12 columns as maximum columns. In using grid layout we can easily control how responsive our website is for the sccreen.
 
 taking one day break to fix sleeping problem.
+
+**forms**
+By creating form we can collect data to our potential customer
