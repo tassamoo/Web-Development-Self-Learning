@@ -50,20 +50,6 @@
 //     console.log(bonusPoints)
 
 
-// // The OnClick event listener
-
-// // initialize the count as 0
-// // listen for clicks on the incremennt button
-// // increment the count variable when the button is clicked
-// // change the count-el in the index.html to reflect the new count
-
-// function increment() {
-//     let count = 0;
-//     count = count + 1;
-//     document.getElementById('count-el').innerText = count;
-// }
-
-
 // // Using functions to write less code
 
 // function countdown() {
@@ -112,18 +98,42 @@
 // logLapTime()
 
 
-// write a function that increments
+// // write a function that increments
 
-let lapsCompleted = 0
+// let lapsCompleted = 0
 
-// create a function that increments the lapsCompleted variable with one
-// run it three times
-function incrementLaps(){
-    lapsCompleted = lapsCompleted + 1
-}
+// // create a function that increments the lapsCompleted variable with one
+// // run it three times
+// function incrementLaps(){
+//     lapsCompleted = lapsCompleted + 1
+// }
 
-incrementLaps()
-incrementLaps()
-incrementLaps()
+// incrementLaps()
+// incrementLaps()
+// incrementLaps()
 
-console.log(lapsCompleted)
+// console.log(lapsCompleted)
+
+
+// // The OnClick event listener
+
+// // initialize the count as 0
+// // listen for clicks on the incremennt button
+// // increment the count variable when the button is clicked
+// // change the count-el in the index.html to reflect the new count
+
+// let countEl = document.getElementById('count-el')
+// let count = 0;
+
+// console.log(countEl)
+
+// function increment() {
+//     count = count + 1;
+//     countEl.innerText = count;
+// }
+
+// function reset() {
+//     count = 0;
+//     countEl.innerText = count;
+// }
+
