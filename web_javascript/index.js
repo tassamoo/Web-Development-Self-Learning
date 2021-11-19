@@ -63,11 +63,11 @@
 // // setting up a race car game function
 // countdown()
 
-// Go
-// Players are running the Race
-// race is finished
+// // Go
+// // Players are running the Race
+// // race is finished
 
-// get ready for a new race
+// // get ready for a new race
 // countdown()
 
 
