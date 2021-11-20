@@ -234,3 +234,15 @@ taking one day break to fix sleeping problem.
 **forms**
 By creating form we can collect data to our potential customer
 
+**Document Object Model (DOM)**: 
+how we use JavaScript to modify a website
+
+Document: because we interacting with HTML Document
+Object: the document keyword in javascript is data type object, it means that we can use it to access the HTML document using javascript
+Model: representation of the real thing we see in the browser. for example the lego of NASA rocket is a model of the real rocket built by NASA.
+
+real thing:
+<h2 id="count-el">0</h2>
+
+model:
+let countEl = document.getElementById('count-el')

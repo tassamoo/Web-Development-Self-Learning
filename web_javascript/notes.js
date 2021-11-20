@@ -115,37 +115,53 @@
 // console.log(lapsCompleted)
 
 
-// The OnClick event listener
+// // The OnClick event listener
 
-// initialize the count as 0
-// listen for clicks on the incremennt button
-// increment the count variable when the button is clicked
-// change the count-el in the index.html to reflect the new count
+// // initialize the count as 0
+// // listen for clicks on the incremennt button
+// // increment the count variable when the button is clicked
+// // change the count-el in the index.html to reflect the new count
 
-let countEl = document.getElementById('count-el')
-let count = 0;
+// let countEl = document.getElementById('count-el')
+// let count = 0;
 
-console.log(countEl)
+// console.log(countEl)
 
-function increment() {
-    count = count + 1;
-    countEl.innerText = count;
-}
+// function increment() {
+//     count = count + 1;
+//     countEl.innerText = count;
+// }
 
-function reset() {
-    count = 0;
-    countEl.innerText = count;
-}
+// function reset() {
+//     count = 0;
+//     countEl.innerText = count;
+// }
 
-function save() {
-    localStorage.setItem('count', count);
-}
+// function save() {
+//     localStorage.setItem('count', count);
+// }
 
 
 // Strings
 
 // create a variable, meessage, that stores the string: "You have three new notifications"
+// create a variable, messageToUser, that contains the message we have logged
 
+
+let username = "moo"
 let message = "You have three new notifications"
+let messageToUser = message + ", " + username + "!"
 
-console.log(message)
+console.log(messageToUser)
+
+// create two variables, name and greeting. Set the name variable to your name and the greeting variable to "Hi, my name is"
+// create a third variable, myGreeting taht concatenates the two strings
+
+let name = "Moo"
+let greeting = "Hi, my name is"
+let myGreeting = greeting + " " + name
+
+console.log(myGreeting)
+
+
+
