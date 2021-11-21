@@ -142,26 +142,39 @@
 // }
 
 
-// Strings
+// // Strings
 
-// create a variable, meessage, that stores the string: "You have three new notifications"
-// create a variable, messageToUser, that contains the message we have logged
-
-
-let username = "moo"
-let message = "You have three new notifications"
-let messageToUser = message + ", " + username + "!"
-
-console.log(messageToUser)
-
-// create two variables, name and greeting. Set the name variable to your name and the greeting variable to "Hi, my name is"
-// create a third variable, myGreeting taht concatenates the two strings
-
-let name = "Moo"
-let greeting = "Hi, my name is"
-let myGreeting = greeting + " " + name
-
-console.log(myGreeting)
+// // create a variable, meessage, that stores the string: "You have three new notifications"
+// // create a variable, messageToUser, that contains the message we have logged
 
 
+// let username = "moo"
+// let message = "You have three new notifications"
+// let messageToUser = message + ", " + username + "!"
 
+// console.log(messageToUser)
+
+// // create two variables, name and greeting. Set the name variable to your name and the greeting variable to "Hi, my name is"
+// // create a third variable, myGreeting taht concatenates the two strings
+// // log myGreting to the console
+
+// let name = "Tassamu Akhsan Nugroho"
+// let greeting = "Hi, my name is 22"
+// let myGreeting = greeting + " " + name
+
+// console.log(myGreeting)
+
+// //Strings vs numbers, 
+// let points = 4
+// let bonusPoints = "10"
+// let totalPoints = points + bonusPoints
+// console.log(totalPoints)
+
+// // strings is not operable on number data types
+// console.log(4 + 5)
+// console.log("2" + "4")
+// console.log(5 + "1")
+// console.log(100 + "100")
+
+
+// 

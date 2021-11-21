@@ -21,3 +21,15 @@ inititalization/assignment of variables is basically declare a variable and assi
 reassign is basically change the value of a variable.
 increment is adding 1 to the variable
 decrement is subtracting 1 from the variable
+
+Recap of JS:
+script tag
+varibles
+numbers
+strings
+console.log()
+functions
+The DOM
+getElementById()
+innerText
+testContent
