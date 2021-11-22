@@ -22,6 +22,7 @@ reassign is basically change the value of a variable.
 increment is adding 1 to the variable
 decrement is subtracting 1 from the variable
 
+Sunday: 23 November 2021
 Recap of JS:
 script tag
 varibles
