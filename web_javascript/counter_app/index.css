@@ -1,0 +1,53 @@
+body{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+}
+
+button{
+    background-color: #000;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;}
+
+#increment-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#reset-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+#save-btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 10px;
+}
