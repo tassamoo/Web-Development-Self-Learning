@@ -41,12 +41,12 @@
 // console.log(2 + 2) //4
 // console.log("11" + "14") //1114
 
-// Nike - Shoes error challenge
-let errorParagraph = document.getElementById("error")
-console.log(errorParagraph)
+// // Nike - Shoes error challenge
+// let errorParagraph = document.getElementById("error")
+// console.log(errorParagraph)
 
-function purchase(){
-    console.log("You bought a pair of shoes!")
-    errorParagraph.textContent = "Something went wrong, please try again"
-}
+// function purchase(){
+//     console.log("You bought a pair of shoes!")
+//     errorParagraph.textContent = "Something went wrong, please try again"
+// }
 
