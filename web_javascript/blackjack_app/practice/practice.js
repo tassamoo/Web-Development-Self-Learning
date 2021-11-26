@@ -25,18 +25,41 @@
 // console.log(3 <= 2)     // false
 
 
-//arrays practice
-let cards = [7, 3, 9]
+// //arrays practice
+// let cards = [7, 3, 9]
 
-for (let i =0; i < cards.length; i++) {
-  console.log(cards[i])
+// for (let i =0; i < cards.length; i++) {
+//   console.log(cards[i])
+// }
+
+// let sentence = ["Hello", "My", "Name", "Is", "Moo"]
+// let greetingEl = document.getElementById("greeting")
+
+// for (let i = 0; i < sentence.length; i++) {
+//   console.log(sentence[i])
+//   greetingEl.textContent += sentence[i] + " "
+// }
+
+let player1Time = 102
+let player2Time = 107
+
+function getFastestRaceTime() {
+  if (player1Time < player2Time) {  
+    return player1Time
+  } else if (player2Time < player1Time) {
+    return player2Time
+  } else {
+    return player1Time
+  }
+
 }
 
-let sentence = ["Hello", "My", "Name", "Is", "Moo"]
-let greetingEl = document.getElementById("greeting")
+// let fastestRace = getFastestRaceTime()
+// console.log(fastestRace)
 
-for (let i = 0; i < sentence.length; i++) {
-  console.log(sentence[i])
-  greetingEl.textContent += sentence[i] + " "
+function totalRaceTime(){
+  return player1Time + player2Time
 }
 
+let totalTIme = totalRaceTime()
+console.log(totalTIme)
