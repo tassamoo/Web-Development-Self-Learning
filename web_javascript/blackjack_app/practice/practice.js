@@ -40,26 +40,55 @@
 //   greetingEl.textContent += sentence[i] + " "
 // }
 
-let player1Time = 102
-let player2Time = 107
+// //learning return
 
-function getFastestRaceTime() {
-  if (player1Time < player2Time) {  
-    return player1Time
-  } else if (player2Time < player1Time) {
-    return player2Time
-  } else {
-    return player1Time
-  }
+// let player1Time = 102
+// let player2Time = 107
 
-}
+// function getFastestRaceTime() {
+//   if (player1Time < player2Time) {  
+//     return player1Time
+//   } else if (player2Time < player1Time) {
+//     return player2Time
+//   } else {
+//     return player1Time
+//   }
 
-// let fastestRace = getFastestRaceTime()
-// console.log(fastestRace)
+// }
 
-function totalRaceTime(){
-  return player1Time + player2Time
-}
+// // let fastestRace = getFastestRaceTime()
+// // console.log(fastestRace)
 
-let totalTIme = totalRaceTime()
-console.log(totalTIme)
+// function totalRaceTime(){
+//   return player1Time + player2Time
+// }
+
+// let totalTIme = totalRaceTime()
+// console.log(totalTIme)
+
+// Generate random numbers
+
+// let randomNumber = Math.random()
+// console.log(randomNumber)
+
+// let randomNumber = Math.random() * 10
+// console.log(randomNumber)
+
+// let flooredNumber = Math.floor(randomNumber)
+// console.log(flooredNumber)
+
+//math.random() is a random number between 0 and 1
+//math.floor() rounds down to the nearest whole number
+
+// let randomNumber = Math.floor(Math.random() * 10) + 1  
+// //so the result is not zero
+// console.log(randomNumber)
+
+// //create a function that generates a random number between 1 and 6 and returns it
+
+// function rollDice() {
+//   let randomNUmber = Math.floor(Math.random() * 6) + 1
+//   return randomNUmber
+// }
+
+// console.log(rollDice())
