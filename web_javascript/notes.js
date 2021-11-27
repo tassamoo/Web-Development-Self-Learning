@@ -177,4 +177,125 @@
 // console.log(100 + "100")
 
 
-// 
+// // Arrays - ordered list of items - composite / complex data type
+
+// //0 indexed
+// let featuredPost = [
+//     "checkout my netflix clone", 
+//     "here's the code for my project", 
+//     "I've just relaunched my portfolio"
+// ]
+
+// console.log (featuredPost[0])
+// console.log (featuredPost.length)
+
+// let skills = [
+//     "data analysis",
+//     "data visualization",
+//     "data wrangling",
+//     "data science",
+//     "data engineering",
+//     "data modeling",
+//     "data mining",
+// ]
+
+// let example = [
+//     "Tassamu Akhsan Nugroho",
+//     22,
+//     true
+// ]
+
+// // adding items to the end of it
+// let cards = [7,4]
+
+// cards.push(3)
+
+// console.log(cards)
+
+// //practice adding items to the end of an array
+// let messages = ["I'm learning JavaScript", "It's challenging to learn JavaScript"]
+
+// let newMessage = "I'm learning Array"
+
+// messages.push(newMessage)
+// console.log(messages)
+// messages.pop()
+// console.log(messages)
+
+// // Blackjack app
+// let firstCard = 10
+// let secondCard = 4
+// let cards = [firstCard, secondCard] //array - ordered list of items
+// let sum = firstCard + secondCard
+// let hasBlackJack = false
+// let isAlive = true
+// let message = ""
+// let messageEl = document.getElementById("message-el")
+// let sumEl = document.getElementById("sum-el")
+// let cardsEl = document.getElementById("cards-el")
+// // let sumEl = document.querySelector("#sum-el")
+
+// // if (sum < 21){
+// //     console.log("Do you want to draw a a new card?")
+// // }   else if (sum === 21){
+// //     console.log("Woohoo! You've got BlackJack!")
+// // }   else { //you can also use else if(sum > 21)
+// //     console.log("You're out of the game!")
+// // }
+
+// function startGame(){
+//     renderGame()
+// }
+
+// function renderGame(){
+//     // render out firstCard and secondCard
+//     cardsEl.textContent = "Cards: " + cards[0] + " " + cards[1]
+
+//     if (sum <= 20){
+//         message = "Do you want to draw a a new card?"
+//     }   else if (sum === 21){
+//         message = "Woohoo! You've got BlackJack!"
+//         hasBlackJack = true
+//     }   else {
+//         message = "You're out of the game!"
+//         isAlive = false
+//     }
+//     messageEl.textContent = message
+//     sumEl.textContent = "Sum: " + sum
+    
+// }
+
+// function newCard(){
+// let card = 7
+// sum += card
+// renderGame()
+// }
+
+// //for loops
+// //how to count from 1 to 10 using a for loop
+
+// for (let count = 10; count < 21; count += 1){
+//     console.log(count)
+// }
+
+// for (let i = 0; i < 6; i += 1){
+//     console.log(i)
+// }
+
+// for (let i = 10; i < 101; i += 10){
+//     console.log(i)
+// }
+
+// DRY - Don't Repeat Yourself
+
+let messages = [
+    "I'm learning JavaScript", 
+    "It's challenging to learn JavaScript",
+    "I want to graduate and get a real job",
+    "I hope that I can write my thesis fast enough",
+    "Help meeee"
+]
+
+for (let i = 0; i < messages.length; i += 1){
+    console.log(messages[i])
+}
