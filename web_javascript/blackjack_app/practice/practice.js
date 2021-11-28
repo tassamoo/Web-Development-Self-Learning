@@ -92,3 +92,84 @@
 // }
 
 // console.log(rollDice())
+
+// // The logical AND operator
+
+// // practice 01
+// let hasCompletedCourse = true
+// let giveCertificate = true
+
+// if (hasCompletedCourse === true && giveCertificate === true) {
+//     generateCertificate()
+// }
+
+// function generateCertificate() {
+//     console.log("Generating certificate...")
+// }
+
+
+// // practice 02
+// let hasSolvedChallenge = false
+// let hasHintsLeft = false
+
+// if (hasSolvedChallenge === false && hasHintsLeft === false) {
+//     showHint()
+// }
+// function showHint() {
+//     console.log("Here's a hint!")
+// }
+
+// // The logical OR operator
+// // practice 01
+
+// let likesDocumentaries = true
+// let likesStartups = true
+
+// if (likesDocumentaries === true || likesStartups === true) {
+//     recommendMovie()
+// }
+
+// function recommendMovie(){
+//     console.log("You should watch this movie!")
+// }
+
+// //Objects - store data in-depth - composite / complex data type. In a nutshell, key-value pairs.
+
+// let course = {
+//     title: "Learn Javascript Objects",
+//     lessons: 16,
+//     creator: "Moo",
+//     length: 160,
+//     level: 2,
+//     isFree: true,
+//     tags: ["Javascript", "Objects", "Composite Data Type"]
+// }
+
+// //dotnotation
+// console.log(course.title)
+
+// //bracket notation
+// console.log(course["title"])
+
+// //test
+// console.log(course.tags[1])
+
+
+// //practice 01
+// let listObject = {
+//     name: "Moo",
+//     age: 22,
+//     hobbies: ["eating", "sleeping", "coding"],
+// }
+
+// console.log(listObject.hobbies[2])
+
+// //object
+// let player = {
+//     name: "Moo",
+//     chips: 145,
+//     // you can add function to an object and it called methods
+//     // sayHello: function(){
+//     //     console.log("Hello, I'm " + this.name)
+//     // }
+// }

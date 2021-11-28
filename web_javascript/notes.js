@@ -299,3 +299,5 @@ let messages = [
 for (let i = 0; i < messages.length; i += 1){
     console.log(messages[i])
 }
+
+//functions inside an objects is a method
