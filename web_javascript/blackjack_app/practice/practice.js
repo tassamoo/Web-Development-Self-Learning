@@ -241,4 +241,21 @@
 
 // console.log(getHand())
 
- 
+
+// // Sorting Fruits
+// let fruits = ["apple", "orange", "apple", "apple", "orange"]
+// let appleShelf = document.getElementById("apple-shelf")
+// let orangeShelf = document.getElementById("orange-shelf")
+
+// function sortFruits() {
+//     for (let i = 0; i < fruits.length; i++) {
+//         if (fruits[i] === "apple") {
+//             appleShelf.textContent += "apple"
+//         } else if (fruits[i] === "orange") {
+//             orangeShelf.textContent += "orange"
+//         }
+//     }
+
+// }
+
+// sortFruits()
