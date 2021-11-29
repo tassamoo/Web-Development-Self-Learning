@@ -28,6 +28,7 @@
 // //arrays practice
 // let cards = [7, 3, 9]
 
+// //   START         FINISH        STEP SIZE
 // for (let i =0; i < cards.length; i++) {
 //   console.log(cards[i])
 // }
@@ -173,3 +174,71 @@
 //     //     console.log("Hello, I'm " + this.name)
 //     // }
 // }
+
+
+// //Object Practice
+// let person = {
+//     name: "Moo",
+//     age: 22,
+//     country: "Indonesia"
+// }
+
+// function logData(){
+//     console.log(person.name + " is " + person.age + " years old and lives in " + person.country)
+// }
+
+// logData()
+
+// // If else statements
+
+// let age = 15
+
+// if (age < 6){
+//     console.log("Free")
+// } else if (age < 18) {
+//     console.log("Child Discount")
+// } else if (age < 27) {
+//     console.log("Student Discount")
+// } else if (age < 67) {
+//     console.log("Full Price")
+// } else {
+//     console.log("Senior Citizen Discount")
+// }
+
+// // Loops and Arrays
+// let largeCountries = ["China", "India", "USA", "Indonesia", "Pakistan"]
+
+// for (let i = 0; i < largeCountries.length; i++) {
+//     console.log("- " + largeCountries[i])
+// }
+
+// // push, pop, unshift, shift
+
+// let largeCountries = ["Tuvalu", "India", "USA", "Indonesia", "Monaco"]
+
+// largeCountries.pop()
+// largeCountries.push("Pakistan")
+// largeCountries.shift()
+// largeCountries.unshift("China")
+// console.log(largeCountries)
+
+// // AND Operator Practice
+// let dayOfMonth = 13
+// let weekDay = "Friday"
+
+// if (dayOfMonth ===  13 && weekDay === "Friday") {
+//     console.log("That's Scary!")
+// }
+
+
+// //random function practice
+// let hands = ["rock", "paper", "scissors"]
+
+// function getHand(){
+//     let randomIndex = Math.floor(Math.random() * 3)
+//     return hands[randomIndex]
+// }
+
+// console.log(getHand())
+
+ 
