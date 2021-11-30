@@ -301,3 +301,9 @@ for (let i = 0; i < messages.length; i += 1){
 }
 
 //functions inside an objects is a method
+
+
+// const vs let vs var
+// const is a constant, it can't be changed
+// let is a variable, it can be changed
+// var is a variable, it can be changed
