@@ -13,14 +13,26 @@
 
 // console.log(`${playerName} has ${credits} credits`)
 
-const basePrice = 520
-const discount = 120
-let shippingCost = 12
-let shippingTime = "5-12 Days"
+// //practice let const
 
-shippingCost = 15
-shippingTime = "7-14 Days"
+// const basePrice = 520
+// const discount = 120
+// let shippingCost = 12
+// let shippingTime = "5-12 Days"
 
-const fullPrice = basePrice - discount + shippingCost
+// shippingCost = 15
+// shippingTime = "7-14 Days"
 
-console.log("Total cost:" + fullPrice + ". It will arrive in" + shippingTime)
+// const fullPrice = basePrice - discount + shippingCost
+
+// console.log("Total cost:" + fullPrice + ". It will arrive in" + shippingTime)
+
+
+// //practice 02 - using innerHTML
+const container = document.getElementById("container")
+
+container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+
+function buy() {
+    container.innerHTML += "<p>Thank you for buying!</p>"
+}
