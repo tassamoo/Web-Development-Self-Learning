@@ -246,3 +246,6 @@ real thing:
 
 model:
 let countEl = document.getElementById('count-el')
+
+December 4th 2021
+Wifi Error
