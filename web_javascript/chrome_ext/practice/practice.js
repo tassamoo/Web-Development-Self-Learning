@@ -29,10 +29,23 @@
 
 
 // //practice 02 - using innerHTML
-const container = document.getElementById("container")
+// const container = document.getElementById("container")
 
-container.innerHTML = "<button onclick='buy()'>Buy!</button>"
+// container.innerHTML = "<button onclick='buy()'>Buy!</button>"
 
-function buy() {
-    container.innerHTML += "<p>Thank you for buying!</p>"
-}
+// function buy() {
+//     container.innerHTML += "<p>Thank you for buying!</p>"
+// }
+
+//template strings/literals
+
+const recipient = "Tas"
+const sender = "Moo"
+
+//Refactor the email string to use template strings
+const email = "Hey " + recipient + ", your order has been shipped!"
+const email2 = `Hey ${recipient}, your order has been shipped by ${sender} !`
+console.log(email)
+console.log(email2)
+
+//template strings on multiple lines
