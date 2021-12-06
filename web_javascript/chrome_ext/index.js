@@ -2,28 +2,37 @@
 //     console.log("buttonClicked");
 // }
 
-let myLeads = ["leads1", "leads2", "leads3"];
+let myLeads = [];
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
-    console.log(myLeads)
+    inputEl.value = ""
+    renderLeads()
 })
 
-let listItems = ""
-
-for (let i = 0; i < myLeads.length; i++) {
-    const element = myLeads[i];
-    //ulEl.innerHTML += "<li>" + element + "</li>"
-
-    //create element
-    const li = document.createElement("li")
-    //set text content
-    li.textContent = element
-    //append to ul
-    ulEl.append(li)
-
+function renderLeads(){
+    let listItems = ""
+    for (let i = 0; i < myLeads.length; i++) {
+        const element = myLeads[i]
+        listItems += "<li>" + element + "</li>"
+    
+    }
+    ulEl.innerHTML = listItems
 }
 
+
+
+
+// // method 2: using append to add to the end of the list
+// for (let i = 0; i < myLeads.length; i++) {
+//     const element = myLeads[i]
+//     //create element
+//     const li = document.createElement("li")
+//     //set text content
+//     li.textContent = element
+//     //append to ul
+//     ulEl.append(li)
+// }
