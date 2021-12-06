@@ -17,22 +17,33 @@ function renderLeads(){
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
         const element = myLeads[i]
-        listItems += "<li>" + element + "</li>"
+        //listItems += "<li><a target='_blank' href=' " + element +"'>" + element + "</a></li>"
+        
+        //Template String
+        listItems += `
+        <li>
+            <a target='_blank' href='${element}'>
+                ${element}
+            </a>
+        </li>
+        `
     
     }
     ulEl.innerHTML = listItems
 }
 
-
-
-
 // // method 2: using append to add to the end of the list
-// for (let i = 0; i < myLeads.length; i++) {
-//     const element = myLeads[i]
-//     //create element
-//     const li = document.createElement("li")
-//     //set text content
-//     li.textContent = element
-//     //append to ul
-//     ulEl.append(li)
+
+// function renderLeads(){
+//     let listItems = ""
+//     for (let i = 0; i < myLeads.length; i++) {
+//         const element = myLeads[i]
+//         //create element
+//         const li = document.createElement("li")
+//         //set text content
+//         li.textContent = element
+//         //append to ul
+//         ulEl.append(li)
+//     }
+//     ulEl.innerHTML = listItems
 // }
