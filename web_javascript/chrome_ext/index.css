@@ -19,3 +19,19 @@ button{
     color: #fff;
     padding: 10px 20px;
 }
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li{
+    padding: 10px;
+    border-bottom: 1px solid #5f9341;
+}
+
+a{
+    text-decoration: none;
+    color: #5f9341;
+}

@@ -1,17 +1,25 @@
-// function saveLead() {
-//     console.log("buttonClicked");
-// }
+// chrome://extensions/
 
 let myLeads = [];
 const inputEl = document.getElementById("input-el")
 const inputBtn = document.getElementById("input-btn")
 const ulEl = document.getElementById("ul-el")
 
+  
+
+// //create function to trigger button click while pressing enter
+// inputEl.addEventListener("keyup", function(event) {
+//     if (event.key === "Enter") {
+//         inputBtn.enterBtn()
+//     }
+// })
+
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
     renderLeads()
 })
+
 
 function renderLeads(){
     let listItems = ""
@@ -46,4 +54,4 @@ function renderLeads(){
 //         ulEl.append(li)
 //     }
 //     ulEl.innerHTML = listItems
-// }
+// 

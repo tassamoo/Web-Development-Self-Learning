@@ -41,6 +41,7 @@
 
 const recipient = "Tas"
 const sender = "Moo"
+const shippingTime = "5-12 Days"
 
 //Refactor the email string to use template strings
 const email = "Hey " + recipient + ", your order has been shipped!"
@@ -49,3 +50,11 @@ console.log(email)
 console.log(email2)
 
 //template strings on multiple lines
+const message = `
+Hey ${recipient}, 
+
+your order has been shipped by ${sender}! 
+
+and it will arrive in ${shippingTime}
+`
+console.log(message)
