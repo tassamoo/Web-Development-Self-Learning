@@ -8,6 +8,7 @@ const ulEl = document.getElementById("ul-el")
 inputBtn.addEventListener("click", function() {
     myLeads.push(inputEl.value)
     inputEl.value = ""
+    localStorage.setItem("myLeads", JSON.stringify(myLeads))
     renderLeads()
 })
 
@@ -16,9 +17,6 @@ function renderLeads(){
     let listItems = ""
     for (let i = 0; i < myLeads.length; i++) {
         const element = myLeads[i]
-        //listItems += "<li><a target='_blank' href=' " + element +"'>" + element + "</a></li>"
-        
-        //Template String
         listItems += `
         <li>
             <a target='_blank' href='${element}'>
@@ -26,7 +24,6 @@ function renderLeads(){
             </a>
         </li>
         `
-    
     }
     ulEl.innerHTML = listItems
 }

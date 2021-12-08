@@ -286,24 +286,108 @@
 //     console.log(i)
 // }
 
-// DRY - Don't Repeat Yourself
+// // DRY - Don't Repeat Yourself
 
-let messages = [
-    "I'm learning JavaScript", 
-    "It's challenging to learn JavaScript",
-    "I want to graduate and get a real job",
-    "I hope that I can write my thesis fast enough",
-    "Help meeee"
-]
+// let messages = [
+//     "I'm learning JavaScript", 
+//     "It's challenging to learn JavaScript",
+//     "I want to graduate and get a real job",
+//     "I hope that I can write my thesis fast enough",
+//     "Help meeee"
+// ]
 
-for (let i = 0; i < messages.length; i += 1){
-    console.log(messages[i])
-}
+// for (let i = 0; i < messages.length; i += 1){
+//     console.log(messages[i])
+// }
 
-//functions inside an objects is a method
+// //functions inside an objects is a method
 
 
-// const vs let vs var
-// const is a constant, it can't be changed
-// let is a variable, it can be changed
-// var is a variable, it can be changed
+// // const vs let vs var
+// // const is a constant, it can't be changed
+// // let is a variable, it can be changed
+// // var is a variable, it can be changed
+
+// //chrome_ext app
+// // chrome://extensions/
+
+// let myLeads = [];
+// const inputEl = document.getElementById("input-el")
+// const inputBtn = document.getElementById("input-btn")
+// const ulEl = document.getElementById("ul-el")
+
+// inputBtn.addEventListener("click", function() {
+//     myLeads.push(inputEl.value)
+//     inputEl.value = ""
+//     renderLeads()
+// })
+
+
+// function renderLeads(){
+//     let listItems = ""
+//     for (let i = 0; i < myLeads.length; i++) {
+//         const element = myLeads[i]
+//         //listItems += "<li><a target='_blank' href=' " + element +"'>" + element + "</a></li>"
+        
+//         //Template String
+//         listItems += `
+//         <li>
+//             <a target='_blank' href='${element}'>
+//                 ${element}
+//             </a>
+//         </li>
+//         `
+    
+//     }
+//     ulEl.innerHTML = listItems
+// }
+
+// // method 2: using append to add to the end of the list
+
+// function renderLeads(){
+//     let listItems = ""
+//     for (let i = 0; i < myLeads.length; i++) {
+//         const element = myLeads[i]
+//         //create element
+//         const li = document.createElement("li")
+//         //set text content
+//         li.textContent = element
+//         //append to ul
+//         ulEl.append(li)
+//     }
+//     ulEl.innerHTML = listItems
+// 
+
+// //localStorage example
+// let myLeads = []
+// localStorage.setItem("myLeads", "www.google.com")
+// localStorage.getItem("myLeads")
+// localStorage.clear()
+
+// // 1. Save a key/value pair to localStorage
+// // 2. Refresh the page. Get the value and log it to the console.
+// // 3. Clear the value from localStorage.
+
+// localStorage.setItem("myName", "Tassamu Akhsan Nugroho")
+// let name = localStorage.getItem("myName")
+// console.log(name)
+// localStorage.clear()
+
+// let myLeads = `["www.awesomelead.com"]`
+// myLeads = JSON.stringify(myLeads)
+// myLeads.push("www.awesomelead.com")
+
+// example of how to use JSON.parse and JSON.stringify
+
+// // 1. Turn the myLeads string into an array
+// myLeads = JSON.parse(myLeads)
+// // 2. Push a new value into the array
+// myLeads.push("www.awesomelead.com")
+// // 3. Turn the array back into a string
+// myLeads = JSON.stringify(myLeads)
+// // 4. console.log the new string using typeof to verify it's a string
+// console.log(typeof myLeads)
+
+
+ 
+

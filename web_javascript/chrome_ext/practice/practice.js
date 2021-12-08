@@ -37,24 +37,59 @@
 //     container.innerHTML += "<p>Thank you for buying!</p>"
 // }
 
-//template strings/literals
+// //template strings/literals
 
-const recipient = "Tas"
-const sender = "Moo"
-const shippingTime = "5-12 Days"
+// const recipient = "Tas"
+// const sender = "Moo"
+// const shippingTime = "5-12 Days"
 
-//Refactor the email string to use template strings
-const email = "Hey " + recipient + ", your order has been shipped!"
-const email2 = `Hey ${recipient}, your order has been shipped by ${sender} !`
-console.log(email)
-console.log(email2)
+// //Refactor the email string to use template strings
+// const email = "Hey " + recipient + ", your order has been shipped!"
+// const email2 = `Hey ${recipient}, your order has been shipped by ${sender} !`
+// console.log(email)
+// console.log(email2)
 
-//template strings on multiple lines
-const message = `
-Hey ${recipient}, 
+// //template strings on multiple lines
+// const message = `
+// Hey ${recipient}, 
 
-your order has been shipped by ${sender}! 
+// your order has been shipped by ${sender}!  rrive in ${shippingTime}
+// `
+// console.log(message)
 
-and it will arrive in ${shippingTime}
-`
-console.log(message)
+//notes:
+// // chrome://extensions/
+
+// let myLeads = [];
+// const inputEl = document.getElementById("input-el")
+// const inputBtn = document.getElementById("input-btn")
+// const ulEl = document.getElementById("ul-el")
+
+// inputBtn.addEventListener("click", function() {
+//     myLeads.push(inputEl.value)
+//     inputEl.value = ""
+//     localStorage.setItem("myLeads", JSON.stringify(myLeads))
+//     renderLeads()
+// })
+
+
+// function renderLeads(){
+//     let listItems = ""
+//     for (let i = 0; i < myLeads.length; i++) {
+//         const element = myLeads[i]
+//         //listItems += "<li><a target='_blank' href=' " + element +"'>" + element + "</a></li>"
+        
+//         //Template String
+//         listItems += `
+//         <li>
+//             <a target='_blank' href='${element}'>
+//                 ${element}
+//             </a>
+//         </li>
+//         `
+    
+//     }
+//     ulEl.innerHTML = listItems
+// }
+
+
