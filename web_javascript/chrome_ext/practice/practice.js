@@ -171,3 +171,14 @@
 // what are "Howdy" and "Moo"? arguments
 // what are num1 and num2? parameters
 // what are 1 and 2? arguments 
+
+//Arrays as parameters
+//create a function getFirst(arr), that returns the first tem in the array
+function getFirst(arr){
+    return arr[0]
+}
+
+let names = getFirst(["Moo", "John", "Jane"])
+console.log(names)
+
+//call it with an array as an argument to verify that it works
