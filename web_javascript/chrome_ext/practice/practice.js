@@ -130,11 +130,44 @@
 //     console.log("We have viewers!")
 // }
 
-let trueOrFalse = Boolean("hello")
+// let trueOrFalse = Boolean("hello")
 
-console.log(Boolean("")     ) //false
-console.log(Boolean("0")    ) //true
-console.log(Boolean("100")  ) //true
-console.log(Boolean(null)   ) //false
-console.log(Boolean([0])    ) //true
-console.log(Boolean(-0)     ) //false
+// console.log(Boolean("")     ) //false
+// console.log(Boolean("0")    ) //true
+// console.log(Boolean("100")  ) //true
+// console.log(Boolean(null)   ) //false
+// console.log(Boolean([0])    ) //true
+// console.log(Boolean(-0)     ) //false
+
+// // writing first function parameter
+
+// const welcomeEl = document.getElementById("welcome-el")
+
+// //                 parameters
+// function greetUser(greeting, name, title) {
+//     //literal string
+//     // welcomeEl.textContent = greeting + " Welcome to the site" + name
+
+//     //Template String
+//     welcomeEl.textContent = `${greeting}, ${name}, ${title}`
+// }
+// //        arguments
+// greetUser("Howdy", "Moo", "The General")
+
+
+// //Numbers as function parameters
+
+// //create a function, add(), that adds two numbers together and returns the sum
+// function add(num1, num2){
+//     return num1 + num2
+// }
+
+// console.log(add(1,2))
+// console.log(add(1,3))
+
+// //arguments created outside of the functions and passed in. Meanwhile parameters are created inside the function
+
+// what are greeting and name? parameters
+// what are "Howdy" and "Moo"? arguments
+// what are num1 and num2? parameters
+// what are 1 and 2? arguments 
