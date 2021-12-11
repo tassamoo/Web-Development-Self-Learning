@@ -178,7 +178,8 @@ function getFirst(arr){
     return arr[0]
 }
 
+//call it with an array as an argument to verify that it works
+
 let names = getFirst(["Moo", "John", "Jane"])
 console.log(names)
 
-//call it with an array as an argument to verify that it works
