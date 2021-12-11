@@ -183,3 +183,44 @@ function getFirst(arr){
 let names = getFirst(["Moo", "John", "Jane"])
 console.log(names)
 
+
+//let and const practice
+
+// SETTING THE STAGE
+const player = "Moo"
+const opponent = "Mafaza"
+const game = "Amazing Fighter"
+
+let points = 0
+let hasWon = false
+
+// PLAYING THE GAME
+points += 100
+hasWon = true
+
+// ANNOUNCING THE WINNER
+if (hasWon) {
+    console.log(`${player} got ${points} points and won the ${game} game!`)
+} else {
+    console.log(`The winner is ${opponent} ! ${player}  lost the game`)
+}
+
+// Go through all variables and decide if they should be let or const
+// Change the console logs to use template strings instead of double quotes
+
+//log out items in an array
+let myCourses = ["HTML", "CSS", "JS"]
+
+function logItems(arr) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i])
+    }
+}
+
+logItems(myCourses)
+
+// //save to localStorage
+// localStorage.setItem("myCredits", JSON.stringify(myCredits))
+
+// let myCredits = localStorage.getItem("myCredits")
+
