@@ -242,3 +242,40 @@
 // mooBtn.addEventListener("click", function(){
 //     console.log(data[0].score)
 // })
+
+// //generate sentence
+// function generateSentence(desc, arr){
+//     let baseString = `THe ${arr.length} ${desc} are `
+//     const lastItem = arr.length - 1
+//     for (let i = 0; i < arr.length; i++) {
+//         if (i === lastItem) {
+//             baseString += "and " + arr[i] + "."
+//         } else {    
+//         baseString += arr[i] + ", "
+//         }
+//     }
+//     return baseString
+// }
+
+// const sentence = generateSentence("highest mountains", ["Kilimanjaro", "Everest", "Denali"])
+// console.log(sentence)
+
+
+//Render images
+ const imgs = [
+    "images/hip1.jpg",
+    "images/hip2.jpg",
+    "images/hip3.jpg",
+]
+
+const container = document.getElementById("container")
+
+function renderImages() {
+    for (let i = 0; i < imgs.length; i++) {
+        const img = document.createElement("img")
+        img.src = imgs[i]
+        container.appendChild(img)
+    } 
+}
+
+renderImages()
