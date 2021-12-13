@@ -254,3 +254,6 @@ Wifi Error
 December 5th 2021
 
 Wifi Error again
+
+Dec 13th 2021 
+Taking a break
