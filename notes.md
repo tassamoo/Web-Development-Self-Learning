@@ -257,3 +257,6 @@ Wifi Error again
 
 Dec 13th 2021 
 Taking a break
+
+Dec 17th 2021
+Taking a break
