@@ -260,3 +260,6 @@ Taking a break
 
 Dec 17th 2021
 Taking a break
+
+Dec 18th 2021
+Broke my linux system, need to reinstall OS
