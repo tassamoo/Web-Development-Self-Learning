@@ -263,3 +263,6 @@ Taking a break
 
 Dec 18th 2021
 Broke my linux system, need to reinstall OS
+
+Dec 19th 2021
+Working on udacity business analytics scholarship
