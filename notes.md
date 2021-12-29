@@ -266,3 +266,9 @@ Broke my linux system, need to reinstall OS
 
 Dec 19th 2021
 Working on udacity business analytics scholarship
+
+Dec 20th - 26th 2021
+My brother got in an accident of motorcycle, need to working on the administrative etc.
+
+Dec 29th 2021
+My head feels unwell, need to get some rest.
