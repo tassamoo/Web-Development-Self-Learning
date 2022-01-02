@@ -275,3 +275,6 @@ My head feels unwell, need to get some rest.
 
 January 1st 2021
 Learning Descriptive and Inferential Statistics
+
+January 2nd 2021
+Got a cold and headache
