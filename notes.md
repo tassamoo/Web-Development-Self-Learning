@@ -273,8 +273,11 @@ My brother got in an accident of motorcycle, need to working on the administrati
 Dec 29th 2021
 My head feels unwell, need to get some rest.
 
-January 1st 2021
+January 1st 2022
 Learning Descriptive and Inferential Statistics
 
-January 2nd 2021
+January 2nd 2022
 Got a cold and headache
+
+January 3d 2022
+still feeling unwell
