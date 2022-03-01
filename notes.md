@@ -281,3 +281,9 @@ Got a cold and headache
 
 January 3d 2022
 still feeling unwell
+
+March 1st 2022
+Setup Manjaro Gnome as my web dev env.
+The burnout from January till the end of February
+is real. I hope I can finish my thesis and finish
+this web_dev project
