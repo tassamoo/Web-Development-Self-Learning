@@ -20,7 +20,39 @@ const app = express()
 
 app.get('/', (req, res) => {
     console.log('Here')
-    res.send("Hi")
+    res.send("Hi") //is only for testing purposes
 })
 
 app.listen(3000) //run the server
+
+const express = require("express")
+const app = express()
+
+//3. sending data using res
+app.get('/', (req, res) => {
+    console.log("Here")
+    // res.sendStatus(500) //internal server error
+    // res.status(500).send("haha") //send string
+    // res.status(500).json({message: "Error"})  //send json
+    res.download("server.js") //download data from server
+    
+})
+
+app.listen(3000)
+
+//4. Rendering HTML
+const express = require("express")
+const app = express()
+
+//Rendering HTML
+// crate views folder and index.html file
+
+app.set("view engine", "ejs") //setup view engine
+
+app.get('/', (req, res) => {
+    console.log("Here")
+    res.render("index",{text: "World"})//text refer to index.html file
+    
+})
+
+app.listen(3000)
