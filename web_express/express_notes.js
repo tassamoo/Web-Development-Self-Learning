@@ -56,3 +56,29 @@ app.get('/', (req, res) => {
 })
 
 app.listen(3000)
+
+//Routers
+const express = require("express")
+const req = require("express/lib/request")
+const app = express()
+
+//Routers
+
+app.set("view engine", "ejs") 
+
+app.get('/', (req, res) => {
+    console.log("Here")
+    res.render("index",{text: "World"})
+    
+})
+
+//create folder caleed routes and move it to users.js
+app.get("/users", (req, res) => {
+    res.send("User List")
+})
+
+app.get("/users/new", (req, res) => {
+    res.send("User New Form")
+})
+
+app.listen(3000)
