@@ -287,3 +287,6 @@ Setup Manjaro Gnome as my web dev env.
 The burnout from January till the end of February
 is real. I hope I can finish my thesis and finish
 this web_dev project
+
+Saturday, March 5th 2022
+taking a break for better mental health.
