@@ -5,9 +5,13 @@ router.get('/', (req, res) => {
     res.send('User list')
 })
 
-router.get('/new', (req, res) => {
+
+//this code
+router.get('/new', (req, res) => { 
     res.send('User New Form')
 })
+
+//put the code above the /:id route because if not, you will get a 404 error. the code read from top to bottom
 
 router.post('/', (req, res) => {
     res.send('User Created')
@@ -30,6 +34,7 @@ router
 //if you use dynamic routing make sure the method is put below after you declare the first one
 
 // messy code for router same as above
+
 // router.get('/:id', (req, res) => {
 //     res.send(`Get User With ID ${req.params.id}`)
 // })
@@ -42,7 +47,7 @@ router
 //     res.send(`Delete User With ID ${req.params.id}`)
 // })
 
-const users = [{name: 'John'}, {name: 'Sara'}]
+const users = [{name: 'Budi'}, {name: 'Joko'}]
 router.param("id", (req, res, next, id) => {
     req.user = users[id]
     next()
