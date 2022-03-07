@@ -2,9 +2,11 @@ const express = require("express")
 const req = require("express/lib/request")
 const app = express()
 
-//Routers
+app.use(logger)//put it at the top if you want to use the logger everywhere 
 
-app.set("view engine", "ejs") 
+//Routers
+app.set("view engine", "ejs")
+
 
 app.get('/', (req, res) => {
     console.log("Here")
@@ -17,5 +19,11 @@ const userRouter = require("./routes/users")
 
 app.use("/users", userRouter)
 // app.use("/posts", postRouter)
+
+//middleware function 
+function logger(req, res, next) {
+    console.log(req.originalUrl)
+    next()
+}
 
 app.listen(3000)
