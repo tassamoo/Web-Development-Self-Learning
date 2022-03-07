@@ -4,15 +4,22 @@ const app = express()
 
 app.use(logger)//put it at the top if you want to use the logger everywhere 
 
+app.use(express.static("public"))
+app.use(express.urlencoded({extended: true}))
+app.use(express.json())
+
 //Routers
 app.set("view engine", "ejs")
 
 
-app.get('/', (req, res) => {
-    console.log("Here")
-    res.render("index",{text: "World"})
+
+//this code if you want to use dynamic routing
+
+// app.get('/', (req, res) => {
+//     console.log("Here")
+//     res.render("index",{text: "World"})
     
-})
+// })
 
 const userRouter = require("./routes/users")
 // const postRouter = require("./routes/posts")

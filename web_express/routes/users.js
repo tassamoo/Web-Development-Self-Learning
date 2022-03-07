@@ -2,19 +2,32 @@ const express = require('express')
 const router = express.Router()
 
 router.get('/', (req, res) => {
+    console.log(req.query.name)
     res.send('User list')
 })
 
 
-//this code
+// router.get('/new', (req, res) => { 
+//     res.send('User New Form')
+// })
+
 router.get('/new', (req, res) => { 
-    res.send('User New Form')
+    res.render('users/new', {firstName: 'Test'})
 })
 
-//put the code above the /:id route because if not, you will get a 404 error. the code read from top to bottom
-
+//put this code below above the /:id route because if not, you will get a 404 error. the code read from top to bottom
 router.post('/', (req, res) => {
-    res.send('User Created')
+    // res.send('Create User')
+    const isValid = false
+    if(isValid) {
+        users.push({ firstName: req.body.firstName })
+        res.redirect(`/users/${users.length - 1}`)
+    } else{
+        console.log('Error')
+        res.render('users/new', {firstName: req.body.firstName})
+    }    
+    // console.log(req.body.firstName)
+    // res.send('Hi')
 })
 
 //clean code for router
